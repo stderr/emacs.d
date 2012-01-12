@@ -4,12 +4,12 @@
 (require 'color)
 (require 'ruby)
 (require 'yaml)
-(require 'bindings)
 (require 'misc)
 (require 'abbrev)
 (require 'defuns)
 (require 'modeline)
 (require 'git)
+(require 'bindings)
 
 ;; I Do magic.
 (require 'ido)

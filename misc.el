@@ -1,3 +1,6 @@
+Get rid of scrollbar
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+
 ;; current line highlight
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#330")
