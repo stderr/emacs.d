@@ -1,9 +1,8 @@
-Get rid of scrollbar
+;Get rid of scrollbar
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;; current line highlight
 (global-hl-line-mode 1)
-(set-face-background 'hl-line "#330")
 
 ;; I have to type "yes" or "no"? Fuck you.
 (defalias 'yes-or-no-p 'y-or-n-p)

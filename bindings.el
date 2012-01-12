@@ -4,8 +4,10 @@
 (global-set-key "\C-c\C-k" 'kill-region)
 
 ;; vim style o / O commands
-(global-set-key "\C-c\C-O" 'vi-open-line-above)
-(global-set-key "\C-c\C-o" 'vi-open-line-below)
+;; (global-set-key "\C-c\C-O" 'vi-open-line-above)
+;; (global-set-key "\C-c\C-o" 'vi-open-line-below)
+;; Meh, use occur instead
+(global-set-key "\C-c\C-o" 'occur)
 
 ;; Change font sizes for code review on retarded TVs
 (define-key global-map (kbd "C-+") 'text-scale-increase)

@@ -1,7 +1,8 @@
-(setq load-path (cons "~/.emacs.d/vendor/" load-path))
-
+(add-to-list 'load-path "~/.emacs.d/vendor/themes/solarized")
 (require 'color-theme)
+(require 'color-theme-solarized)
+
 (color-theme-initialize)
-(color-theme-charcoal-black)
+(color-theme-solarized-light)
 
 (provide 'color)
