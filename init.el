@@ -1,14 +1,15 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/")
 
+(require 'defuns)
 (require 'coffee)
 (require 'color)
 (require 'ruby)
 (require 'yaml)
 (require 'misc)
 (require 'abbrev)
-(require 'defuns)
 (require 'modeline)
 (require 'git)
+(require 'shellsetup) ;; avoid collision by naming it "shell"
 (require 'bindings)
 
 ;; I Do magic.

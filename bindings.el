@@ -1,7 +1,20 @@
 ;; Readline aw yea
-(global-set-key "\C-w" 'backward-kill-word)
-(global-set-key "\C-x\C-k" 'kill-region)
-(global-set-key "\C-c\C-k" 'kill-region)
+(global-set-key (kbd "C-w") 'kill-region-or-backward-word)
+
+;; Shell -  a suspend-frame binding is useless for me
+(global-set-key (kbd "C-z") 'shell)
+
+;; Buffer cycling
+(global-set-key (kbd "<C-tab>") 'bury-buffer)
+
+;; Hippie expand binding
+(global-set-key "\M- " 'hippie-expand)
+
+;; Sudo editing
+(global-set-key (kbd "M-s e") 'sudo-edit)
+
+;; Dired jump
+(global-set-key (kbd "C-x C-j") 'dired-jump)
 
 ;; vim style o / O commands
 ;; (global-set-key "\C-c\C-O" 'vi-open-line-above)
