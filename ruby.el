@@ -9,6 +9,7 @@
   (interactive)
   (c-subword-mode 1)
 )
+
 (add-hook 'ruby-mode-hook 'my-ruby-mode-hook)
 
 (provide 'ruby)

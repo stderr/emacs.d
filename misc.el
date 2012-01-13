@@ -4,7 +4,10 @@
 ;; current line highlight
 (global-hl-line-mode 1)
 
-;; I have to type "yes" or "no"? Fuck you.
+;; Reuse dired buffer with 'a'
+(put 'dired-find-alternate-file 'disabled nil)
+
+;; use y and n instead of typing out yes or no
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; backup files in their own directory instead of wd
@@ -23,8 +26,6 @@
 ;; Line numbas
 (line-number-mode 1)
 (column-number-mode 1)
-
-;; Modeline
 
 ;; C-k at beginning of line takes the whole line (no need to c-k twice)
 (setq kill-whole-line t)
