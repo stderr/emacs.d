@@ -24,8 +24,8 @@
 (setq kept-new-versions 25)
 
 ;; Line numbas
-(line-number-mode 1)
-(column-number-mode 1)
+(global-linum-mode 1)
+(setq linum-format "%4d ")
 
 ;; C-k at beginning of line takes the whole line (no need to c-k twice)
 (setq kill-whole-line t)
@@ -42,9 +42,6 @@
 
 ;; Just move one instead of an entire screen when scrolling to next page
 (setq scroll-step 1)
-
-;; Y'know, like blood
-(set-face-background 'region "dark red")
 
 ;; remember buffers between emacs sessions
 (desktop-save-mode 1)

@@ -3,13 +3,15 @@
 (require 'defuns)
 (require 'coffee)
 (require 'color)
+(require 'rvm)
+(require 'flymake-ruby)
 (require 'ruby)
 (require 'yaml)
-(require 'misc)
 (require 'abbrev)
 (require 'modeline)
 (require 'git)
 (require 'shellsetup) ;; avoid collision by naming it "shell"
+(require 'misc)
 (require 'bindings)
 
 ;; I Do magic.

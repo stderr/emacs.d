@@ -10,6 +10,9 @@
   (c-subword-mode 1)
 )
 
+(rvm-use-default)
+
+(add-hook 'ruby-mode-hook 'flymake-ruby-load)
 (add-hook 'ruby-mode-hook 'my-ruby-mode-hook)
 
 (provide 'ruby)
