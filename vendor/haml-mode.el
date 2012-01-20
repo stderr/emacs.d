@@ -30,7 +30,7 @@
 (require 'textile-mode nil t)
 (require 'markdown-mode nil t)
 (require 'javascript-mode "javascript" t)
-(require 'js nil t)
+(require 'js2 nil t)
 
 
 ;; User definable variables

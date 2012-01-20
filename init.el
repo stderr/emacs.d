@@ -7,12 +7,15 @@
 (require 'flymake-ruby)
 (require 'ruby)
 (require 'yaml)
+(require 'haml)
+(require 'lua)
 (require 'abbrev)
 (require 'modeline)
 (require 'git)
 (require 'shellsetup) ;; avoid collision by naming it "shell"
 (require 'misc)
 (require 'bindings)
+(require 'js)
 
 ;; I Do magic.
 (require 'ido)
