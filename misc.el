@@ -15,6 +15,9 @@
 (setq version-control t)
 (setq backup-directory-alist (quote ((".*" . "~/.emacs_backups/"))))
 
+;; Set grep command to use - recursiveness for the win
+(setq grep-command "grep -nHRi -e")
+
 ;; emacs likes to ask if you want to delete backup files once
 ;; you have enabled versioning. that is a total pain in the neck
 (setq delete-old-versions t)

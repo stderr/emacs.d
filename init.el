@@ -4,10 +4,8 @@
 (require 'coffee)
 (require 'color)
 (require 'rvm)
-(require 'flymake-ruby)
 (require 'ruby)
 (require 'yaml)
-(require 'haml)
 (require 'lua)
 (require 'abbrev)
 (require 'modeline)
@@ -15,7 +13,19 @@
 (require 'shellsetup) ;; avoid collision by naming it "shell"
 (require 'misc)
 (require 'bindings)
-(require 'js)
+(require 'my-javascript)
+(require 'haml)
+(require 'wrap-region)
+(require 'feature-mode)
+(require 'php-mode)
+(require 'aes)
+
+;; wrap-region
+(wrap-region-global-mode t)
+
+;; expand-region
+;; (require 'expand-region)
+;; (global-set-key (kbd "C-S-SPC ") 'expand-region)
 
 ;; I Do magic.
 (require 'ido)
@@ -31,6 +41,5 @@
 (setq ido-decorations (quote ("\n-> " "" "\n   " "\n   ..." "[" "]" " [No match]" " [Matched]" " [Not readable]" " [Too big]" " [Confirm]")))
 (defun ido-disable-line-trucation () (set (make-local-variable 'truncate-lines) nil))
 (add-hook 'ido-minibuffer-setup-hook 'ido-disable-line-trucation)
-
 
 (provide 'init)

@@ -4,5 +4,4 @@
 
 (color-theme-initialize)
 (color-theme-solarized-light)
-
 (provide 'color)

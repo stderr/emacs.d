@@ -1,0 +1,61 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan 28 01:18:14 2012
+;; Desktop file format version 206
+;; Emacs version 23.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/stderr/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  453
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/stderr/.emacs.d/vendor/expand-region.el"
+  "expand-region.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  5038
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/stderr/.emacs.d/misc.el"
+  "misc.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/stderr/Projects/github/warp_defender/lib/warp_defender.rb"
+  "warp_defender.rb"
+  'ruby-mode
+  '(flymake-mode linum-mode)
+  86
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+

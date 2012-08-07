@@ -5,4 +5,4 @@
 
 (setq espresso-indent-level 2)
 
-(provide 'js)
+(provide 'my-javascript)
