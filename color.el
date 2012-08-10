@@ -3,5 +3,5 @@
 (require 'color-theme-solarized)
 
 (color-theme-initialize)
-(color-theme-solarized-light)
+(color-theme-solarized-dark)
 (provide 'color)

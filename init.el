@@ -20,6 +20,9 @@
 (require 'php-mode)
 (require 'aes)
 
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
 ;; wrap-region
 (wrap-region-global-mode t)
 
